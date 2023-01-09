@@ -11,7 +11,7 @@ class Element(object):
 
 # home page locators defining
         self.userName = driver.find_element(By.XPATH, Locator.userName)
-        self.password = driver.find_element(By.ID, Locator.passWord)
+     #   self.password = driver.find_element(By.ID, Locator.passWord)
 
     def setUserName(self,Name):
         self.userName.clear()
