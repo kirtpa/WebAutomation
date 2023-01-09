@@ -18,8 +18,8 @@ class Element(object):
         self.userName.send_keys(Name)
         time.sleep(30)
 
-    def setpassword(self,value):
-        self.password.clear()
-        self.password.send_keys(value)
-        time.sleep(30)
+#     def setpassword(self,value):
+#         self.password.clear()
+#         self.password.send_keys(value)
+#         time.sleep(30)
 
